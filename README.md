@@ -1,10 +1,10 @@
-# PDF to Podcast ( pdf to audio converter)
+## PDF to Podcast (PDF to Audio Converter)
 
-# Fisrt install dependencies 
+### Install Dependencies  
+```bash
 pip install streamlit PyMuPDF gtts
 
-
-
+### Pythn code
 import streamlit as st
 import PyPDF2
 import os
@@ -74,6 +74,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-    # after uploading code in vs code run it as streamlit run pdf_to_audio_converter.py 
-    then you will see streamlit open in an browser
+### Run it As
+streamlit run pdf_to_audio_converter.py
